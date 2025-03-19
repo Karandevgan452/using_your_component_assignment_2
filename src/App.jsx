@@ -10,7 +10,7 @@ function App() {
       id: 1,
       profileImage:
         "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg",
-      username: "alice",
+      username: "Karan",
       content: "This is my first post!",
       isLiked: false,
     },
@@ -18,7 +18,7 @@ function App() {
       id: 2,
       profileImage:
         "https://writestylesonline.com/wp-content/uploads/2016/08/Follow-These-Steps-for-a-Flawless-Professional-Profile-Picture.jpg",
-      username: "bob",
+      username: "Hiya",
       content: "Loving this social media app.",
       isLiked: true,
     },
@@ -26,7 +26,7 @@ function App() {
       id: 3,
       profileImage:
         "https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-avatar-image-for-profile-png-image_13001882.png",
-      username: "charlie",
+      username: "Nishchey",
       content: "Just another day...",
       isLiked: false,
     },
@@ -40,7 +40,7 @@ function App() {
         alignItems: "center",
       }}
     >
-      <h2>Home Page</h2>
+      <h2 style={{ color: "grey" }}>Home Page</h2>
       {posts.map((post) => (
         <PostCard key={post.id} post={post} />
       ))}
